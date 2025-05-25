@@ -808,7 +808,7 @@ select {
     display: block;
   }
 
-  .nav__list {
+  .nav__link {
     display: none;
   }
 
