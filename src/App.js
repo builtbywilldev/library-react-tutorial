@@ -2,6 +2,8 @@
 import Nav from "./components/Nav";
 import Highlights from "./components/Highlights";
 import Featured from "./components/Featured";
+import Discoutned from "./components/Discoutned";
+import Explore from "./components/Explore";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Landing />
       <Highlights/>
       <Featured />
+      <Discoutned />
+      <Explore />
       </header>
     </div>
   );
