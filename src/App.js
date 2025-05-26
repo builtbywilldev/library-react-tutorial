@@ -1,6 +1,7 @@
   import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 import Highlights from "./components/Highlights";
+import Featured from "./components/Featured";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
        <Nav />
       <Landing />
       <Highlights/>
-
+      <Featured />
       </header>
     </div>
   );
