@@ -4,18 +4,19 @@ import Highlights from "./components/Highlights";
 import Featured from "./components/Featured";
 import Discoutned from "./components/Discoutned";
 import Explore from "./components/Explore";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <header className="nav">
-
-       <Nav />
+      <Nav />
       <Landing />
       <Highlights/>
       <Featured />
       <Discoutned />
       <Explore />
+      <Footer />
       </header>
     </div>
   );
