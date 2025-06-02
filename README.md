@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+📚 React Library Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, minimal landing page for an online book platform.
+Built with React, styled with custom CSS, and deployed via Vercel.
 
-## Available Scripts
+This was a speed-run UI build to practice:
 
-In the project directory, you can run:
+    Clean component structure
 
-### `npm start`
+    SVG/PNG integration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Cart interactivity + dynamic states
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Pixel-perfect desktop layout
 
-### `npm test`
+⚙️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ⚛️ React (Functional components)
 
-### `npm run build`
+    🎨 Custom CSS (no Tailwind)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    🖼️ Static assets + local images
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    🌐 Vercel (Deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✨ Features
 
-### `npm run eject`
+    📖 Responsive layout with styled landing hero
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    🔘 Simple nav bar with cart icon and dynamic badge
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    🛒 Cart logic works: add/remove items (no checkout)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    📦 Book asset integration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    🧩 Modular component structure
 
-## Learn More
+    ⚡ Fast-loading and clean markup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🛠️ Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
+npm run dev
 
-### Code Splitting
+To deploy:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm run build
 
-### Analyzing the Bundle Size
+💬 Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is a front-end UI prototype — cart functionality is local only.
+There’s no database, no login, and no checkout.
+Perfect for styling practice and component fluency.
